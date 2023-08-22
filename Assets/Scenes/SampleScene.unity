@@ -948,7 +948,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 89}
-  m_SizeDelta: {x: 100, y: 60}
+  m_SizeDelta: {x: 84.1288, y: 51.1827}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1482060941
 MonoBehaviour:
@@ -1173,6 +1173,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7339987675529018638, guid: 4a94dd1541881674f8a3d8a7d0b2f8ba, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805075795517369628, guid: 4a94dd1541881674f8a3d8a7d0b2f8ba, type: 3}
+      propertyPath: m_Mass
+      value: 0.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805075795517369628, guid: 4a94dd1541881674f8a3d8a7d0b2f8ba, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805075795517369628, guid: 4a94dd1541881674f8a3d8a7d0b2f8ba, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805075795517369628, guid: 4a94dd1541881674f8a3d8a7d0b2f8ba, type: 3}
+      propertyPath: m_Constraints
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805075795517369628, guid: 4a94dd1541881674f8a3d8a7d0b2f8ba, type: 3}
+      propertyPath: m_GravityScale
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

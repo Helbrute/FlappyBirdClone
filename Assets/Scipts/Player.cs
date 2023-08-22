@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void Start()
@@ -39,6 +40,7 @@ public class Player : MonoBehaviour
         direction.y += gravity * Time.deltaTime;
         transform.position += direction * Time.deltaTime;
 
+        
     }
 
     public void Jump(InputAction.CallbackContext context)
@@ -47,6 +49,7 @@ public class Player : MonoBehaviour
         {
             direction = Vector3.up * strength;
         }
+        transform.eulerAngles = new Vector3(0, 0, rb.velocity.y);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
